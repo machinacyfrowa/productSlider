@@ -20,7 +20,7 @@ div#productList {
     left: 0px;
     transition: all 0.5s ease-out
 }
-div#product {
+div.product {
     width: 200px;
     text-align: center;
 }

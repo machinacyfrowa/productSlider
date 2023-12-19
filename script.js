@@ -43,5 +43,12 @@ window.addEventListener("load", ()=>{
 
 
     //klikalne karty produktów 
-    
+    let productCards = Array.from(productList.getElementsByClassName("product"));
+    productCards.forEach((card)=> {
+        //pobierz url z linku do zmiennej
+        let url = card.getElementsByTagName("a")[0].href;
+        card.addEventListener("click", ()=>{
+            window.location.assign(url);
+        })
+    })
 })
