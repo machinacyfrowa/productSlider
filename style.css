@@ -1,0 +1,22 @@
+div#productSlider {
+    width: 400px;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+div#leftArrow,
+div#rightArrow {
+    width: 50px;
+    text-align: center;
+}
+div#productWindow {
+    overflow: hidden;
+    width: 300px;
+}
+div#productList {
+    width: 1000px;
+    display: flex;
+}
+div#product {
+    width: 100px;
+}
